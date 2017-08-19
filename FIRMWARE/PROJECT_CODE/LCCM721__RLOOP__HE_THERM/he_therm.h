@@ -49,6 +49,12 @@
 				/** 25x 10 MS ticks */
 				Luint8 u8250MS_Flag;
 
+				/** 50x 10 MS ticks */
+				Luint8 u8500MS_Flag;
+
+				/** 100x 10 MS ticks for 1 second  */
+				Luint8 u81000MS_Flag;
+
 				/** The next packet type to transmit */
 				E_NET__PACKET_T eTxPacketType;
 
@@ -120,6 +126,7 @@
 				{
 					/** Have we thresholded above 75C = 1
 					 * Have we thresholded above 95C = 2
+					 * Have we thresholded below 65C = 3
 					 * Else 0
 					 *  */
 					Luint8 u8ChannelOverTemp_State;
@@ -133,6 +140,10 @@
 
 
 		}TS_HET__MAIN;
+
+        #define SOL_LEFT  0
+        #define SOL_RIGHT 1
+        #define SOL_BRAKE 2
 
 		/*******************************************************************************
 		Structures

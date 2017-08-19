@@ -103,9 +103,6 @@
     <Filter Include="LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\MAIN_SM">
       <UniqueIdentifier>{0b8b7a0f-5ad4-479c-932b-24b236e98138}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\CONTROLLER">
-      <UniqueIdentifier>{ba0f745c-b572-4acc-90b1-60f262c5ad05}</UniqueIdentifier>
-    </Filter>
     <Filter Include="LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\ETHERNET">
       <UniqueIdentifier>{25394466-ab3a-4e0b-90fc-98fb53c00a31}</UniqueIdentifier>
     </Filter>
@@ -120,9 +117,6 @@
     </Filter>
     <Filter Include="Source Files\MULTICORE\LCCM658__MULTICORE__AMC7812\ADC">
       <UniqueIdentifier>{d5ed7a32-8f12-4431-afcf-f8f96ba4d1e7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="LCCM655__RLOOP__FCU_CORE\LGU">
-      <UniqueIdentifier>{e8ea368e-db84-4e34-9263-5b746eb20c26}</UniqueIdentifier>
     </Filter>
     <Filter Include="LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\TRACK_DATABASE">
       <UniqueIdentifier>{a8681542-0e8c-48c7-b72b-8455ba4bcce7}</UniqueIdentifier>
@@ -300,9 +294,6 @@
     <ClCompile Include="..\..\..\..\FIRMWARE\PROJECT_CODE\LCCM655__RLOOP__FCU_CORE\ASI_RS485\fcu__asi__ethernet.c">
       <Filter>LCCM655__RLOOP__FCU_CORE\ASI_RS485</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\FIRMWARE\PROJECT_CODE\LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\CONTROLLER\fcu__flight_controller.c">
-      <Filter>LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\CONTROLLER</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\FIRMWARE\PROJECT_CODE\LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\ETHERNET\fcu__fctl__ethernet.c">
       <Filter>LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\ETHERNET</Filter>
     </ClCompile>
@@ -369,6 +360,12 @@
     <ClCompile Include="..\..\..\..\FIRMWARE\PROJECT_CODE\LCCM655__RLOOP__FCU_CORE\ACCELEROMETERS\fcu__accel__win32.c">
       <Filter>LCCM655__RLOOP__FCU_CORE\ACCELEROMETERS</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\FIRMWARE\PROJECT_CODE\LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\fcu__flight_controller.c">
+      <Filter>LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FIRMWARE\PROJECT_CODE\LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\MAIN_SM\fcu__fctl__main_sm__transitions.c">
+      <Filter>LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\MAIN_SM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="localdef.h">
@@ -430,6 +427,9 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\FIRMWARE\PROJECT_CODE\LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\TRACK_DATABASE\fcu__fctl__track_database__types.h">
       <Filter>LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\TRACK_DATABASE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FIRMWARE\PROJECT_CODE\LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER\fcu__flight_controller__state_types.h">
+      <Filter>LCCM655__RLOOP__FCU_CORE\FLIGHT_CONTROLLER</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
