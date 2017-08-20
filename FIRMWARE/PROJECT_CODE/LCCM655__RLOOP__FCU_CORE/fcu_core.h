@@ -765,6 +765,10 @@
 
 				}sBinary;
 
+				/** Count Bad Distance Measurements in ascii mode **/
+				Luint32 u32Counter__BadDistance;
+
+
 			}sLaserDist;
 
 
